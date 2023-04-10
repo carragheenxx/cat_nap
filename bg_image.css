@@ -5,6 +5,7 @@
   background-position: center;
   background-repeat: var(--bg-repeat);
   background-color: var(--bg-color);
+  filter: blur(var(--bg-blur));
 }
 .form-3gdLxP::before {
     background: transparent !important;
