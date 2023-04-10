@@ -1,0 +1,124 @@
+/*removes the background masks for sm md and lg user modules*/
+mask[id*="uid_"] > circle[fill="black"]{
+    
+    fill: transparent !important;
+
+}
+.cursorDefault-2M8ZNp mask[id*=":r"] rect[fill="black"],
+.cursorDefault-2M8ZNp mask[id*=":r"] rect[fill="white"] {
+    rx: var(--status-radius);
+    fill: white !important;
+    
+    
+}
+
+/*reshapes regular and updated avatars*/
+
+.avatar-2e8lTP.clickable-31pE3P,foreignObject[mask*="svg-mask-avatar"], foreignObject[mask*="#:r"]{
+    
+    mask: none;
+        
+    border-radius: var(--a-border-radius);
+    border-width: var(--a-border-width);
+    border-color: var(--a-border-color);
+    border-style: var(--a-border-style);
+    background-color: var(--a-bg-color);
+        
+}
+
+
+/*statuses: */
+/*online*/
+rect[fill="#23a55a"][mask="url(#svg-mask-status-online)"]{
+
+    mask: none;
+    
+    rx:var(--status-radius);
+    fill: var(--online-status-color) !important;
+    
+    border-color: white;
+    border-style: solid;
+}
+rect[fill*="#"][width="10"]{
+rx: var(--status-radius);
+fill: var(--online-status-color) !important;
+}
+
+
+
+/*statuses: */
+/*online*/
+rect[fill="#23a55a"][mask="url(#svg-mask-status-online)"]{
+
+    mask: none;
+    
+    rx:var(--status-radius);
+    fill: var(--online-status-color) !important;
+    
+    border-color: white;
+    border-style: solid;
+}
+rect[fill="#23a55a"][width="10"]{
+rx: var(--status-radius);
+fill: var(--online-status-color) !important;
+}
+
+/*online(mobile)*/
+rect[fill="#23a55a"][mask="url(#svg-mask-status-online-mobile)"]{
+    
+    mask: none;
+    height: var(status-radius);
+    width: var(status-radius);
+    x: 22;
+    y: 22;
+
+    rx: var(--status-radius);
+    fill: var(--mobile-status-color) !important;   
+}
+rect[fill="#23a55a"][width="25"]{
+rx: var(--status-radius);
+fill: var(--mobile-status-color) !important;
+}
+
+
+/*do not disturb*/
+rect[fill="#f23f43"][mask="url(#svg-mask-status-dnd)"]{
+    
+    mask: none;
+    
+    rx: var(--status-radius);
+    fill: var(--dnd-status-color) !important;   
+}
+rect[fill="#f23f43"]{
+rx: var(--status-radius);
+fill: var(--dnd-status-color) !important;
+}
+
+
+/*idle*/
+rect[fill="#f0b232"][mask="url(#svg-mask-status-idle)"]{
+    
+    mask: none;
+
+    rx: var(--status-radius);
+    fill: var(--idle-status-color) !important;      
+}
+rect[fill="#f0b232"]{
+rx: var(--status-radius);
+fill: var(--idle-status-color) !important;
+}
+
+
+
+/*offline*/
+rect[fill="#80848e"][mask="url(#svg-mask-status-offline)"] {
+    mask: none;
+    
+    rx: var(--status-radius);
+    fill:  var(--offline-status-color) !important;
+    
+}
+rect[fill="#80848e"]{
+rx: var(--status-radius);
+fill: var(--offline-status-color) !important;
+}
