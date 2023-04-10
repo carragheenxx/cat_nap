@@ -1,0 +1,98 @@
+.listItemWrapper-3d87LP, div[draggable="true"]{
+    mask: none !important;
+    border-radius: var(--sf-border-radius);
+    border-width: var(--sf-border-width);
+    border-color: var(--sf-border-color);
+    border-style: var(--sf-border-style);
+    overflow: hidden;   
+}
+.pill-2RsI5Q,  .wrapper-z5ab_q{
+background-color: var(--pill-color);
+border-radius: 8px;
+transition-duration: 200ms;
+}
+.pill-2RsI5Q:hover,  .wrapper-z5ab_q:hover, .item-2LIpTv:hover{
+background-color: var(--selected-pill-color);
+border-radius: 8px;
+}
+.item-2LIpTv {
+background-color: var(--selected-pill-color);
+height: 70px !important;
+width: 20px !important;
+}
+
+
+
+.folderIconWrapper-1oRIZr {
+background-color: var(--f-bg-color) !important;
+border-radius: 1px 1px 11px 1px;
+}
+
+.wrapper-2PSQCG, .svg-2ifYOU{
+border-radius: var(--sf-shape);
+mask: none !important;
+background-color: var(--pfp-bg);
+}
+foreignObject[width="48"]{
+border-radius: 0px 0px 0px 0px !important; 
+mask: none !important;
+}
+
+.closedFolderIconWrapper-3tRb2d{
+    background-image: none;
+    display: none;
+    transition: background-color ease-out !important;
+    transition-duration: 20ms !important;
+}
+
+.expandedFolderIconWrapper-3RwQpD svg{
+color: transparent !important;
+}
+
+
+
+
+.folderIconWrapper-1oRIZr[style=""]::after {
+    position: absolute;
+    content: "";
+    width: 18px;
+    height: 18px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: transparent;
+    background-image: var(--open-folder-icon);
+    background-attachment: fixed;
+    background-size: 100%;
+    transform: scale(1.5);
+    filter: brightness(1.5) saturate(1.5);
+    transition-duration: 200ms;
+}
+.folderIconWrapper-1oRIZr[style=""]:hover::after {
+    rotate: 10deg;
+}
+
+
+.folderIconWrapper-1oRIZr:not([style=""])::after {
+    position: absolute;
+    content: "";
+    width: 18px;
+    height: 18px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: transparent;
+    background-image: var(--closed-folder-icon);
+    background-attachment: fixed;
+    background-size: 100%;
+    transform: scale(1.5);
+    filter: brightness(1.5) saturate(1.5);
+    transition-duration: 200ms;
+}
+.folderIconWrapper-1oRIZr:not([style=""]):hover::after {
+    rotate: 10deg;
+}
