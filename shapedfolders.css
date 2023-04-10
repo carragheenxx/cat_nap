@@ -31,7 +31,7 @@ border-radius: 1px 1px 11px 1px;
 .wrapper-2PSQCG, .svg-2ifYOU{
 border-radius: var(--sf-shape);
 mask: none !important;
-background-color: var(--pfp-bg);
+background-color: var(--folder-bg);
 }
 foreignObject[width="48"]{
 border-radius: 0px 0px 0px 0px !important; 
