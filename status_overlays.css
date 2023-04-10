@@ -1,0 +1,298 @@
+.link-39sEB3, 
+.interactive-26HRN_.interactive-iyXY_x.interactiveSelected-29CP8y.selected-26oxtA,.container-32HW5s{
+    overflow: visible;
+
+}
+
+/*online sm*/
+.avatar-2MSPKk.wrapper-3Un6-K:has(rect[fill="#23a55a"]):not([width="120"])::after, 
+.avatar-1HDIsL .wrapper-3Un6-K:has(rect[fill="#23a55a"]):not([width="120"])::after {
+    position: absolute;
+    content: "";
+    
+    bottom: 4px;
+    right: 4px;
+    
+    width: 10%;
+    height: 10%;
+
+    margin: none;
+    border-radius: var(--statusborderradius);
+
+    background-color: var(--statusbgcolor);
+    background-image: var(--onlinestatusicon);
+    background-position: flip;
+    background-attachment: fixed;
+    background-size: 100%;
+    transform: scale(6);
+    rotate: var(--onlinerotation);
+    filter: var(--onlinebs);
+}
+
+/*online md*/
+.avatarWrapperNormal-ahVUaC .wrapper-3Un6-K:has(rect[fill="#23a55a"]):not([width="120"])::after{
+    position: absolute;
+    content: "";
+    
+    bottom: 8px;
+    right: 8px;
+    
+    width: 10%;
+    height: 10%;
+
+    margin: none;
+    border-radius: var(--statusborderradius);
+
+    background-color: var(--statusbgcolor);
+    background-image: var(--onlinestatusicon);
+    background-position: flip;
+    background-attachment: fixed;
+    background-size: 100%;
+    transform: scale(4);
+    rotate: var(--onlinerotation);
+    filter: var(--onlinebs);
+
+}
+/*online lg*/
+.wrapper-3Un6-K.avatar-3QF_VA:has(rect[fill="#23a55a"]):not([width="120"])::after {
+    position: absolute;
+    content: "";
+    
+    bottom: 13px;
+    right: 13px;
+    
+    width: 10%;
+    height: 10%;
+
+    margin: none;
+    border-radius: var(--statusborderradius);
+
+    background-color: var(--statusbgcolor);
+    background-image: var(--onlinestatusicon);
+    background-position: flip;
+    background-attachment: fixed;
+    background-size: 100%;
+    transform: scale(4);
+    rotate: var(--onlinerotation);
+    filter: var(--onlinebs);
+}
+
+
+/*idle sm*/
+.avatar-2MSPKk.wrapper-3Un6-K:has(rect[fill="#f0b232"]):not([width="120"])::after, 
+.avatar-1HDIsL .wrapper-3Un6-K:has(rect[fill="#f0b232"]):not([width="120"])::after {
+    position: absolute;
+    content: "";
+    
+    bottom: 4px;
+    right: 4px;
+    
+    width: 10%;
+    height: 10%;
+
+    margin: none;
+    border-radius: var(--statusborderradius);
+
+    background-color: var(--statusbgcolor);
+    background-image: var(--idlestatusicon);
+    background-position: flip;
+    background-attachment: fixed;
+    background-size: 100%;
+    transform: scale(6);
+    rotate: var(--idlerotation);
+    filter: var(--idlebs);
+}
+/*idle md*/
+.avatarWrapperNormal-ahVUaC .wrapper-3Un6-K:has(rect[fill="#f0b232"]):not([width="120"])::after{
+    position: absolute;
+    content: "";
+    
+    bottom: 8px;
+    right: 8px;
+    
+    width: 10%;
+    height: 10%;
+
+    margin: none;
+    border-radius: var(--statusborderradius);
+
+    background-color: var(--statusbgcolor);
+    background-image: var(--idlestatusicon);
+    background-position: flip;
+    background-attachment: fixed;
+    background-size: 100%;
+    transform: scale(4);
+    rotate: var(--idlerotation);
+    filter: var(--idlebs);
+
+}
+/*idle lg*/
+.wrapper-3Un6-K.avatar-3QF_VA:has(rect[fill="#f0b232"]):not([width="120"])::after {
+    position: absolute;
+    content: "";
+    
+    bottom: 13px;
+    right: 13px;
+    
+    width: 10%;
+    height: 10%;
+
+    margin: none;
+    border-radius: var(--statusborderradius);
+
+    background-color: var(--statusbgcolor);
+    background-image: var(--idlestatusicon);
+    background-position: flip;
+    background-attachment: fixed;
+    background-size: 100%;
+    transform: scale(4);
+    rotate: var(--idlerotation);
+    filter: var(--idlebs);
+
+}
+
+/*dnd sm*/
+.avatar-2MSPKk.wrapper-3Un6-K:has(rect[fill="#f23f43"]):not([width="120"])::after, 
+.avatar-1HDIsL .wrapper-3Un6-K:has(rect[fill="#f23f43"]):not([width="120"])::after {
+    position: absolute;
+    content: "";
+    
+    bottom: 4px;
+    right: 4px;
+    
+    width: 10%;
+    height: 10%;
+
+    margin: none;
+    border-radius: var(--statusborderradius);
+
+    background-color: var(--statusbgcolor);
+    background-image: var(--dndstatusicon);
+    background-position: flip;
+    background-attachment: fixed;
+    background-size: 100%;
+    transform: scale(6);
+    rotate: var(--dndrotation);
+    filter: var(--dndbs);
+}
+/*dnd md*/
+.avatarWrapperNormal-ahVUaC .wrapper-3Un6-K:has(rect[fill="#f23f43"]):not([width="120"])::after{
+    position: absolute;
+    content: "";
+    
+    bottom: 8px;
+    right: 8px;
+    
+    width: 10%;
+    height: 10%;
+
+    margin: none;
+    border-radius: var(--statusborderradius);
+
+    background-color: var(--statusbgcolor);
+    background-image: var(--dndstatusicon);
+    background-position: flip;
+    background-attachment: fixed;
+    background-size: 100%;
+    transform: scale(4);
+    rotate: var(--dndrotation);
+    filter: var(--dndbs);
+
+}
+/*dnd lg*/
+.wrapper-3Un6-K.avatar-3QF_VA:has(rect[fill="#f23f43"]):not([width="120"])::after {
+    position: absolute;
+    content: "";
+    
+    bottom: 13px;
+    right: 13px;
+    
+    width: 10%;
+    height: 10%;
+
+    margin: none;
+    border-radius: var(--statusborderradius);
+
+    background-color: var(--statusbgcolor);
+    background-image: var(--dndstatusicon);
+    background-position: flip;
+    background-attachment: fixed;
+    background-size: 100%;
+    transform: scale(4);
+    rotate: var(--dndrotation);
+    filter: var(--dndbs);
+
+}
+
+/*offline sm*/
+.avatar-2MSPKk.wrapper-3Un6-K:has(rect[fill="#80848e"]):not([width="120"])::after, 
+.avatar-1HDIsL .wrapper-3Un6-K:has(rect[fill="#80848e"]):not([width="120"])::after {
+    position: absolute;
+    content: "";
+    
+    bottom: 4px;
+    right: 4px;
+    
+    width: 10%;
+    height: 10%;
+
+    margin: none;
+    border-radius: var(--statusborderradius);
+
+    background-color: var(--statusbgcolor);
+    background-image: var(--offlinestatusicon);
+    background-position: flip;
+    background-attachment: fixed;
+    background-size: 100%;
+    transform: scale(6);
+    rotate: var(--offlinerotation);
+    filter: var(--offlinebs);
+}
+/*offline md*/
+.avatarWrapperNormal-ahVUaC .wrapper-3Un6-K:has(rect[fill="#80848e"]):not([width="120"])::after{
+    position: absolute;
+    content: "";
+    
+    bottom: 8px;
+    right: 8px;
+    
+    width: 10%;
+    height: 10%;
+
+    margin: none;
+    border-radius: var(--statusborderradius);
+
+    background-color: var(--statusbgcolor);
+    background-image: var(--offlinestatusicon);
+    background-position: flip;
+    background-attachment: fixed;
+    background-size: 100%;
+    transform: scale(4);
+    rotate: var(--offlinerotation);
+    filter: var(--offlinebs);
+
+}
+/*offline lg*/
+.wrapper-3Un6-K.avatar-3QF_VA:has(rect[fill="#80848e"]):not([width="120"])::after {
+    position: absolute;
+    content: "";
+    
+    bottom: 13px;
+    right: 13px;
+    
+    width: 10%;
+    height: 10%;
+
+    margin: none;
+    border-radius: var(--statusborderradius);
+
+    background-color: var(--statusbgcolor);
+    background-image: var(--offlinestatusicon);
+    background-position: flip;
+    background-attachment: fixed;
+    background-size: 100%;
+    transform: scale(4);
+    rotate: var(--offlinerotation);
+    filter: var(--offlinebs);
+
+}
