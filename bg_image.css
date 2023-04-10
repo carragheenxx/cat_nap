@@ -1,0 +1,40 @@
+.bg-1QIAus {
+  background-image: var(--bg-image);
+  background-attachment: var(--bg-attachment);
+  background-size: var(--bg-size);
+  background-position: center;
+  background-repeat: var(--bg-repeat);
+  background-color: var(--bg-color);
+}
+.form-3gdLxP::before {
+    background: transparent !important;
+}
+
+/* Background Image Transparency */
+.container-ZMc96U.themed-Hp1KC_,
+.nowPlayingColumn-1eCBCN,
+.container-1oAagU,
+.chatContent-3KubbW,
+.container-2o3qEW,
+.member-48YF_l,
+.members-3WRCEx, .container-2cd8Mz,
+.chat-2ZfjoI {
+    background-color: var(--bg-color2);
+}
+
+.container-1eFtFS::before {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--bg-color3);
+    opacity: var(--bg-opacity3);
+}
+
+/*remove Discord top-left*/
+:root .wordmark-2u86JB svg, svg[viewBox="0 0 55 16"] g[fill="currentColor"] {
+fill: transparent !important;
+display: none;
+}
