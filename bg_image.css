@@ -11,6 +11,17 @@
     background: transparent !important;
 }
 
+
+#app-mount .withFrame-2dL45i {
+    margin: var(--bg-margin);
+}
+
+#app-mount .layers-OrUESM {
+    margin:var(--window-margin);
+    border-radius: var(--window-border-radius);
+}
+
+
 /* Background Image Transparency */
 .container-ZMc96U.themed-Hp1KC_,
 .nowPlayingColumn-1eCBCN,
