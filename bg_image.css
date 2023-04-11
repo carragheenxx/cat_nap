@@ -37,6 +37,8 @@
 .members-3WRCEx, .container-2cd8Mz,
 .chat-2ZfjoI {
     background-color: var(--bg-overlay-color);
+    opacity: var(--bg-overlay-opacity);
+    background-image: var(--bg-overlay-image);
 }
 
 .container-1eFtFS::before {
