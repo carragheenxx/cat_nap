@@ -11,6 +11,11 @@
     background: transparent !important;
 }
 
+::selection {
+    background-color: var(--selected-text-bg); /* text selection*/
+    color: var(--selected-text-color); /* text color */
+}
+
 
 #app-mount .withFrame-2dL45i {
     margin: var(--bg-margin);
