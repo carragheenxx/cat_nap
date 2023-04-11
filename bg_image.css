@@ -24,6 +24,9 @@
 #app-mount .layers-OrUESM {
     margin:var(--window-margin);
     border-radius: var(--window-border-radius);
+    border-width: var(--window-border-width);
+    border-color: var(--window-border-color);
+    border-style: var(--window-border-style);   
 }
 
 
