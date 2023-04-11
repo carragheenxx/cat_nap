@@ -24,7 +24,7 @@
     background-position: flip;
     background-attachment: fixed;
     background-size: 100%;
-    transform: scale(6);
+    transform: var(--onlinescale);
     rotate: var(--onlinerotation);
     filter: var(--onlinebs);
 }
@@ -48,7 +48,7 @@
     background-position: flip;
     background-attachment: fixed;
     background-size: 100%;
-    transform: scale(4);
+    transform: var(--md-onlinescale);
     rotate: var(--onlinerotation);
     filter: var(--onlinebs);
 
@@ -72,7 +72,7 @@
     background-position: flip;
     background-attachment: fixed;
     background-size: 100%;
-    transform: scale(4);
+    transform: var(--lg-onlinescale);
     rotate: var(--onlinerotation);
     filter: var(--onlinebs);
 }
@@ -98,7 +98,7 @@
     background-position: flip;
     background-attachment: fixed;
     background-size: 100%;
-    transform: scale(6);
+    transform: var(--idlescale);
     rotate: var(--idlerotation);
     filter: var(--idlebs);
 }
@@ -121,7 +121,7 @@
     background-position: flip;
     background-attachment: fixed;
     background-size: 100%;
-    transform: scale(4);
+    transform: var(--md-idlescale);
     rotate: var(--idlerotation);
     filter: var(--idlebs);
 
@@ -145,7 +145,7 @@
     background-position: flip;
     background-attachment: fixed;
     background-size: 100%;
-    transform: scale(4);
+    transform: var(--lg-idlescale);
     rotate: var(--idlerotation);
     filter: var(--idlebs);
 
@@ -171,7 +171,7 @@
     background-position: flip;
     background-attachment: fixed;
     background-size: 100%;
-    transform: scale(6);
+    transform: var(--dndscale);
     rotate: var(--dndrotation);
     filter: var(--dndbs);
 }
@@ -194,7 +194,7 @@
     background-position: flip;
     background-attachment: fixed;
     background-size: 100%;
-    transform: scale(4);
+    transform: var(--md-dndscale);
     rotate: var(--dndrotation);
     filter: var(--dndbs);
 
@@ -218,7 +218,7 @@
     background-position: flip;
     background-attachment: fixed;
     background-size: 100%;
-    transform: scale(4);
+    transform: var(--lg-dndscale);
     rotate: var(--dndrotation);
     filter: var(--dndbs);
 
@@ -244,7 +244,7 @@
     background-position: flip;
     background-attachment: fixed;
     background-size: 100%;
-    transform: scale(6);
+    transform: var(--offlinescale);
     rotate: var(--offlinerotation);
     filter: var(--offlinebs);
 }
@@ -267,7 +267,7 @@
     background-position: flip;
     background-attachment: fixed;
     background-size: 100%;
-    transform: scale(4);
+    transform: var(--md-offlinescale);
     rotate: var(--offlinerotation);
     filter: var(--offlinebs);
 
@@ -291,7 +291,7 @@
     background-position: flip;
     background-attachment: fixed;
     background-size: 100%;
-    transform: scale(4);
+    transform: var(--lg-offlinescale);
     rotate: var(--offlinerotation);
     filter: var(--offlinebs);
 
