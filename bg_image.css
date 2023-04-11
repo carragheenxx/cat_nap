@@ -76,6 +76,7 @@ border-radius: var(--inner-border-radius);
     position: absolute;
     background-color: var(--second-bg-overlay-color);
     opacity: var(--second-bg-overlay-opacity);
+    background-image: var(--second-bg-overlay-image);
 }
 
 /*remove Discord top-left*/
