@@ -17,6 +17,29 @@
 }
 
 
+.channel-1Shao0.container-32HW5s{
+border-color: var(--inner-border-color);
+border-width: var(--inner-border-width);
+border-style: var(--inner-border-style);
+border-radius: var(--inner-border-radius);
+}
+.channel-1Shao0.container-32HW5s:hover {
+border-color: var(--inner-border-color);
+border-width: var(--inner-border-width);
+border-style: var(--inner-border-style);
+border-radius: var(--inner-border-radius);
+} 
+
+
+.sidebar-1tnWFu{
+  border-radius: 0px !important;
+
+  border-color: var(--inner-border-color);
+  border-left-width: var(--dm-list-border-width);
+  border-right-width: var(--dm-list-border-width);
+  border-style: var(--dm-list-border-style);
+}
+
 #app-mount .withFrame-2dL45i {
     margin: var(--bg-margin);
 }
