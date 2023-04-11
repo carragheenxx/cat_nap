@@ -67,11 +67,11 @@ color: transparent !important;
     background-attachment: fixed;
     background-size: 100%;
     transform: scale(1.5);
-    filter: brightness(1.5) saturate(1.5);
+    filter: var(--folder-bri-sat);
     transition-duration: 200ms;
 }
 .folderIconWrapper-1oRIZr[style=""]:hover::after {
-    rotate: 10deg;
+    rotate: var(--folder-rotate);
 }
 
 
@@ -90,9 +90,9 @@ color: transparent !important;
     background-attachment: fixed;
     background-size: 100%;
     transform: scale(1.5);
-    filter: brightness(1.5) saturate(1.5);
+    filter: var(--folder-bri-sat);
     transition-duration: 200ms;
 }
 .folderIconWrapper-1oRIZr:not([style=""]):hover::after {
-    rotate: 10deg;
+    rotate: var(--folder-rotate);
 }
